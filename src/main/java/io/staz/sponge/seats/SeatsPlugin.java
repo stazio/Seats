@@ -46,7 +46,7 @@ public class SeatsPlugin {
                         playerChairs.put(player.getUniqueId(), chair);
                     }
                     return CommandResult.builder().affectedEntities(2).affectedBlocks(1).build();
-                }).permission("seats.sit").
+                }).permission("seats.sit.self").
                         description(Text.of("Allows a player to sit wherever they are standing.")).
                         arguments(GenericArguments.flags().
                                 flag("force").
