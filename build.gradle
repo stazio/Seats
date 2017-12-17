@@ -1,0 +1,16 @@
+group 'io.staz'
+version 'v7-1.0.0'
+
+apply plugin: 'java'
+apply plugin: 'org.spongepowered.plugin'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.spongepowered:spongeapi:7.0.0-SNAPSHOT'
+
+}
